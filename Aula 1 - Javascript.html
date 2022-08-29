@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1 - Javascript</title>
+
+    <script>
+        //Variáveis são pequenos espaços ocupados na memória do dispositivo para guardar ticos de informação.
+        //Cada variavel possui um tipo. 
+
+        var hora = 12; // Tipo número (inteiro | int | integer)
+        let preco = 7.50; // Tipo número (float | real | double)
+        var mensagem = 'Olá!'; // Tipo Texto (String)
+        var feliz = true; // (Tipo Boolean | Verdadeiro/Falso | true/false)
+        var porta_aberta = true;
+        const OUTRO_NUMERO = 50;
+        var nome_02 = "Victor";
+        var nome = "João";
+        var exemplo = nome + " " + nome_02;
+        console.log(nome_02);
+        
+        //alert(exemplo);
+
+        //Concatenação
+        //alert(nome + " + a hora de ir é ao médico é " + hora_de_ir_ao_medico + "h.");
+        //alert(hora_de_ir_ao_medico + "h");
+        //var nome = prompt("Por favor, digite o seu nome: "); //prompt()
+        //confirm var casar = confirm("Quer casar comigo?");
+
+        /* var casar = confirm(nome + " quer casar comigo?");
+        
+        if (casar == true) {
+            alert("ELE ACEITOU!");
+            console.log("ELE ACEITOU!");
+        } else {
+            alert("Bora jogar videogame.");
+        } */
+
+        ////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////
+
+        //Desvio condicional | CONDICIONAIS.
+        /* Para trabalhar com condicionais, podemos usar a seguinte sintaxe:
+        if (condição) {
+            // Código a ser executado caso a condição seja verdadeira
+        }
+
+        if (hora >= 0 && hora <= 6) {
+            alert("Boa madruga!");
+        }
+
+        if (hora <= 12 && hora >= 6) {
+            alert("Bom dia!");
+        }
+
+        if (hora >= 12 && hora <= 18) {
+            alert("Boa tarde!");
+        }
+
+        if (hora >= 18 && hora <= 24) {
+            alert("Boa noite!");
+        }
+
+        if ("Gabriel Augusto" == "gabriel augusto"){
+            alert('tudo certo');
+        } 
+
+        if (10 === "10"){
+            alert('tudo certo');
+        } 
+
+        if (condição) {
+            //  Código a ser executado caso a condição seja verdadeira
+        } else {
+            //  Código a ser executado caso a primeira condição não seja satisfeita
+        }
+
+        /* if (condição) {
+            //  Código a ser executado caso a condição seja verdadeira
+        } else if (condicao){
+            //  Código a ser executado caso a primeira condição não seja satisfeita
+        } else {
+            //  Código a ser executado caso a primeira condição não seja satisfeita
+        }*/
+
+        ////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////
+        // SWITCH
+        var dia = parseInt(prompt("Qual é o dia?"));
+        console.log(dia);
+        
+        switch (dia) {
+            case 0:
+                alert("Domingo");
+                break;
+            case 1:
+                alert("Segunda");
+                break;
+            case 2:
+                alert("Terça");
+                break;
+            case 3:
+                alert("Quarta");
+                break;
+            case 4:
+                alert("Quinta");
+                break;
+            case 5:
+                alert("Sexta");
+                break;
+            case 6:
+                alert("Sábado");
+                break;
+            default:
+                alert("não é um dia");
+        } 
+    </script>
+</head>
+
+<body>
+
+
+
+</body>
+
+</html>

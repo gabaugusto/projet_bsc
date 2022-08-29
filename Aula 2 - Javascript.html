@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2 - Javascript</title>
+
+    <script>
+        /* 
+        var texto = "<p>O número é 1 <br></p>";
+        document.write(texto);
+
+        texto = "<p>O número é 2 <br></p>";
+        document.write(texto);
+
+        texto = "<p>O número é 3 <br></p>";
+        document.write(texto);
+
+        texto = "<p>O número é 4 <br></p>";
+        document.write(texto);
+        
+        A todo momento podemos repetir pequenos blocos de código enquanto uma condição for satisfeita. 
+
+        //////////////////////////////////////////////
+        //////////////////////////////////////////////
+        //////////////////////////////////////////////
+        Laço while;
+
+        while (condition) {
+            // code block to be executed
+        }
+        
+        
+
+        var texto = "";
+        var i = 0;
+        var limite = parseInt(prompt("Qual o seu limite?"));
+        
+        //Enquanto
+        while (i <= limite) {
+            texto = "O número é " + i + "<br>";
+            console.log(texto);
+            document.write(texto);
+            i++; // é igual a i + 1 OU i += 1;
+        } 
+
+        /* 1 - Escreva um algoritmo para ler 2 valores informados pelo usuário e se o segundo valor informado for ZERO, deve ser lido um novo valor, ou seja, para o segundo valor não pode ser aceito o valor zero nem negativo e imprimir o resultado da divisão do primeiro valor lido pelo segundo valor lido. 
+
+        var a = parseInt(prompt("Primeiro Número: "));
+        var b = parseInt(prompt("Segundo Número: "));
+
+        while (b <= 0) {
+            b = parseInt(prompt("Segundo número novamente: "));
+        } 
+
+        var resultado = a+b;
+        alert("A soma dos número é " + resultado);
+        
+
+        2 - Crie uma bomba relógio (usando somente código - para deixar claro!) cuja contagem regressiva vá de 30 a 0. Utilize "document.write" para escrever em tela e no final da repetição escreva "EXPLOSÃO". */
+
+        var contagem = 30;
+
+        while (contagem > 0) {
+            var texto = "<p class='exemplo" + contagem + "'>Contagem em " + contagem + "<br></p>";
+            document.write(texto);
+            console.log(texto);
+            contagem = contagem - 1; // contagem-- OU contagem -= 1;
+            //contagem--;
+            //contagem -= 3;
+        }
+
+        document.write("EXPLOSÂO");
+
+
+
+        /* 
+        
+        //////////////////////////////////////////////
+        //////////////////////////////////////////////
+        //////////////////////////////////////////////
+        Laço for; 
+
+        for (expressão 1; expressão 2; expressão 3 {
+            // Código a ser executado
+
+        }
+        
+        A expressão 1 é executada (uma vez) antes da execução do bloco de código.
+        A expressão 2 define a condição para execução do bloco de código.
+        A expressão 3 é executada (todas as vezes) após a execução do bloco de código.
+        
+        var frase = "";
+        for (var j = 0; j < 5; j++) {
+            frase = "Contando: " + j + "<br>";
+            console.log(frase);
+            document.write(frase);
+            i++;
+        } */
+        
+    </script>
+    <style>
+        .exemplo25 {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem magni ea, aliquam obcaecati itaque sequi pariatur reiciendis facilis veniam, corporis numquam repellat dicta explicabo consectetur maxime est nulla ratione? Cupiditate!</p>
+</body>
+</html>
